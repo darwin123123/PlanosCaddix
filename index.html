@@ -4,62 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Servicios profesionales de diseño de planos arquitectónicos, estructurales y eléctricos.">
-    <title>CaddixPlanosFast</title>
+    <title>Caddix Planos Fast</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <header>
-        <div class="logo" >
-            <h1>Caddix Planos Fast</h1>
+    
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="m-0">Caddix Planos Fast</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
-
-    <section id="inicio" class="hero">
-        <h1>Diseño de Planos Profesionales</h2>
-        <p>Arquitectura, estructuras, instalaciones eléctricas y sanitarias.</p>
+    
+    <section id="inicio" class="hero text-center text-white d-flex align-items-center justify-content-center" style="background: url('img/fondo.jpg') no-repeat center center/cover; height: 80vh;">
+        <div class="container">
+            <h1 class="display-4">Diseño de Planos Profesionales</h1>
+            <p class="lead">Arquitectura, estructuras, instalaciones eléctricas y sanitarias.</p>
+        </div>
     </section>
-
-    <section id="servicios">
-        <h2>Nuestros Servicios</h2>
-        <div class="contenedor">
-            <div class="servicio">
-                <h3>Planos Arquitectónicos</h3>
-                <p>Diseño detallado de viviendas, oficinas y edificaciones.</p>
-            </div>
-            <div class="servicio">
-                <h3>Planos Estructurales</h3>
-                <p>Cálculo y diseño estructural con materiales seguros.</p>
-            </div>
-            <div class="servicio">
-                <h3>Planos Eléctricos y Sanitarios</h3>
-                <p>Diseño eficiente de redes eléctricas y sistemas sanitarios.</p>
+    
+    <section id="servicios" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4">
+                        <h3>Planos Arquitectónicos</h3>
+                        <p>Diseño detallado de viviendas, oficinas y edificaciones.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4">
+                        <h3>Planos Estructurales</h3>
+                        <p>Cálculo y diseño estructural con materiales seguros.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4">
+                        <h3>Planos Eléctricos y Sanitarios</h3>
+                        <p>Diseño eficiente de redes eléctricas y sistemas sanitarios.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <section id="nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Somos un equipo de profesionales con amplia experiencia en diseño de planos.</p>
+    
+    <section id="nosotros" class="bg-light py-5 text-center">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un equipo de profesionales con amplia experiencia en diseño de planos.</p>
+        </div>
     </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>📧 Email: contacto@serviciosdeplanos.com</p>
-        <p>📞 Teléfono: +51 987 654 321</p>
+    
+    <section id="contacto" class="py-5 text-center">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>📧 Email: contacto@serviciosdeplanos.com</p>
+            <p>📞 Teléfono: +51 987 654 321</p>
+        </div>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Servicios de Planos | Todos los derechos reservados.</p>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 Servicios de Planos | Todos los derechos reservados.</p>
     </footer>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
